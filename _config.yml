@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "小鈞部落格"
-subtitle: "跨性別的日常生活"
-description: "跨性別的日常生活"
+title: "小鈞🏳️‍⚧️🔞(♂️➡️♀️)"
+subtitle: "小鈞的跨性別日常"
+description: ""
 keywords:
   [Delia, delia, Delia_Csharp, delia_csharp, 女裝工程師小鈞, 小鈞, 洪秉鈞, 秉鈞]
 author: 小鈞Delia
-language: en
+language: zh-tw
 timezone: "Asia/Taipei"
 
 # URL
@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: ayer
+theme: bamboo
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
