@@ -1,0 +1,1 @@
+{% getSiteOnline /friend/photographer.json %}

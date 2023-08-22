@@ -2,18 +2,25 @@
 
 # 菜单
 menu:
-  Home:
+  首頁:
     url: /
     icon: fas fa-home
-  # About:
-  #   url: /about
-  #   icon: fas fa-film
+  關於我:
+    url: /about
+    icon: fas fa-film
   # Gallery:
   #   url: /gallery
   #   icon: fas fa-film
-  # Friend:
-  #   url: /friend
-  #   icon: fas fa-film
+  友情連結:
+    icon: fa-solid fa-share-nodes
+    children:
+      - name: 合作攝影
+        url: /friend/photographer
+        icon: fa-solid fa-video
+      - name: 好友社群
+        url: /friend/friend-social-Link
+        icon: fa-solid fa-user-group
+
   # Archives:
   #   url: /archives
   #   icon: fas fa-archive
@@ -56,11 +63,11 @@ sidebar:
       shape: circle # circle, rectangle
       url: /about/
       title: 女裝工程師小鈞
-      subtitle: 生活感、日常感、自然感偽娘
+      subtitle: 後端工程師、業餘大尺模特(作品累積中)
       jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
       fontFammily: Titillium Web,'PingFang SC','Hiragino Sans GB','Microsoft JhengHei','Microsoft YaHei',sans-serif
       background: "#fff"
-      order: 1 # 卡片排序, 数值越小，越在上面
+      order: 0 # 卡片排序, 数值越小，越在上面
       social:
         - icon: fa-brands fa-facebook
           url: https://www.facebook.com/delia.csharp
@@ -70,13 +77,15 @@ sidebar:
           url: https://twitter.com/delia_csharp
         - icon: fas fa-envelope
           url: mailto:pingchun.hung@gmail.com
+        - icon: fa-solid fa-circle-dollar-to-slot
+          url: https://furuke.com/delia/donations/create
         # - icon: fas fa-rss
         #   url: /atom.xml
     # ---------------------------------------
     side_toc:
       on: false
       background: "#fff"
-      order: -1 # 卡片排序(widget都有)，任意数字，数字小的在上面
+      order: 2 # 卡片排序(widget都有)，任意数字，数字小的在上面
       header:
         icon: fas fa-list
         icon_color: # 标题字体颜色
@@ -89,7 +98,7 @@ sidebar:
     side_category:
       on: false
       background: "#fff"
-      order: # 卡片排序(widget都有)，任意数字，数字小的在上面
+      order: 3 # 卡片排序(widget都有)，任意数字，数字小的在上面
       header:
         icon: fas fa-folder-open
         icon_color: # 标题字体颜色
@@ -100,7 +109,7 @@ sidebar:
     side_tagcloud:
       on: false
       background: "#fff"
-      order:
+      order: 4
       header:
         icon: fas fa-tags
         icon_color:
@@ -118,7 +127,7 @@ sidebar:
       background: "#fff"
       limit: 5
       sort: update # date
-      order:
+      order: 5
       header:
         icon: fas fa-book
         icon_color:
@@ -202,15 +211,15 @@ swiper:
   defaultImg: "https://pic1.zhimg.com/v2-af3ccef61cf58b1a70765747cc1bbeac_b.jpg" # 图片，没有则随机选取
   defaultVideo: "" # video，min-width:992px show
   defaultVideoLoadingImg: "https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif" # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
-  defaultTile: "小鈞森林" # 标题
-  defaultDesc: ["願溫柔的你被世界溫柔以待"] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
-  defaultLeftBtnText: "關於我" # 左边按钮文字, 空字符串则不显示
-  defaultLeftBtnLink: "https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/" # 左边按钮链接
-  defaultRightBtnText: "技術站" # 右边按钮的文字，空字符串则不显示
-  defaultRightBtnLink: "https://tech.deliahung.com/" # 右边的按钮的链接
+  defaultTile: "Delia's Blog" # 标题
+  defaultDesc: ["願溫柔的你", "被世界溫柔以待"] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
+  defaultLeftBtnText: "我的故事" # 左边按钮文字, 空字符串则不显示
+  defaultLeftBtnLink: "https://life.deliahung.com/about" # 左边按钮链接
+  defaultRightBtnText: "技術網站" # 右边按钮的文字，空字符串则不显示
+  defaultRightBtnLink: "https://tech.deliahung.com" # 右边的按钮的链接
   defaultDescTyped: true # defaultDesc文字是否开启打字特效  is typed
   defaultDescTypedSpeed: 100 # defaultDesc 打字速度, typed typeSpeed
-  defaultDescTypedBackSpeed: 50 # defaultDesc 打字返回速度 typed backSpeed
+  defaultDescTypedBackSpeed: 40 # defaultDesc 打字返回速度 typed backSpeed
   defaultDescTypedLoop: true # defaultDesc文字的打字特效是否循环  typed loop
   # defaultAddToSwiper表示：当有文章设置了swiper: true的时候，将上面的 默认内容 放在轮播图的第一页
   defaultAddToSwiper: true # 开启这个，则loop默认为false
@@ -352,13 +361,13 @@ copyright:
 motto:
   on: true
   title: "我是誰?"
-  content: "一個邊緣的MTF跨性別，女裝資歷8年，2021/1/6開始賀爾蒙治療，非常追求現實、生活、自然感的偽娘，身高體重170/53，平時是個社畜後端工程師，夢想成為專業跨性別大尺模特，2023情慾作品累積中，座標台灣雙北，歡迎動漫場次認親，追隨我，就有機會見到日常又自然的偽娘喔"
+  content: "一位MTF跨性別，女裝資歷8年，2021/1/6開始賀爾蒙治療，從以前就非常追求「現實」、「生活」、「自然」的偽娘，身高體重170/53，平時是個社畜後端工程師，夢想成為專業跨性別大尺模特，2023情慾作品累積中，座標台灣雙北，歡迎動漫場次認親，追隨我，就有機會見到日常又自然的偽娘喔"
   background: 'url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png")' # url("xxx") or red or #000 or rgba() ..
 
 # 公告
 notice:
   on: true
-  seamless: false # 为true时，则无缝不停止滚动，false是会停一下的滚动
+  seamless: true # 为true时，则无缝不停止滚动，false是会停一下的滚动
   title: "公告"
   background: 'url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png")' # url("xxx") or red or #000 or rgba() ..
   list:

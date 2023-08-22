@@ -1,153 +1,55 @@
 ---
 title: 關於我
 ---
+# 八年女裝，不一樣的偽娘、跨性別歷程
 
-<img src="https://s3-tpe-01.russel053.com/delia/delia_tech_hexo/avatar2.jpg" width=800>
+大家好我是小鈞，目前是個完全女裝生活的爆肝工程師，假日會接一些旅拍、外拍，夢想成為專業大尺跨性別模特。
 
-C#後端工程師，畢業於屏東大學資訊管理系，2021年9月開始工程師之路，目前年資兩年，對於程式架構方面有很大的興趣，業餘時間會去各大社群看資深前輩們技術分享教學。
+8年前我就很常在場外發腿照、女裝文章，這裡是我女裝的母校，如果沒有看到場外的女裝前輩們，我可能還是一個討厭自己的厭世醜男，4年前因為一些感情事加上女裝高手太多，自己打扮文章又被噓到爆，所以退出了這個圈子，所以決定先努力改變自己，不管是工作、外貌、穿搭、女子力...等等。我一直想要變得很完美再回來發文，結果一蹲就是4年XD 
 
-參與過電商系統翻新，負責核心訂單、購物車API開發，擅長電商金流、貨態、庫存變化...等領域知識，也參與過ERP系統流程規劃、微服務架構規劃、ERP後端API開發。
+最近有些小成就，想再回來發文分享變化，也希望藉由我的故事可以幫助到「因為性別焦慮困擾，卻又懷疑自己的狀態，不敢往前的人」，也能讓大眾認識真實生活中的跨性別，場外已經是我陌生的環境，但卻有那麼一點熟悉感，為了這篇文章我準備滿久的><
 
-* 位置: Taipei City, Taiwan
-* 電話: 0971080029
-* 信箱: pingchun.hung@gmail.com
-* 我的履歷: [CakeResume](https://www.cakeresume.com/pingchun.hung)
-* GitHub: [Deliahung](https://github.com/DeliaHung)
+因為歷程故事實在太長，覺得塞爆一樓似乎不太好，會慢慢更新用蓋大樓的方式講自己的故事，讓純粹想看照片的人不用看太多文字，畢竟打那麼多誰看得完.jpg
 
----
+![](https://hackmd.io/_uploads/S1WKP0v23.jpg)
 
-# 技能清單
-* 後端語言 & 框架
-`C#` `ASP.NET Core` `ASP.NET Framwork` `WinFrom`
-* SQL
-`SQLServer` `MongoDB`
-* ORM
-`Entity Framwork` `Dapper` `ADO.NET`
-* 前端
-`HTML5` `CSS3` `jQuery` `Bootstrap` `Vue.js`
-* 版本控制
-`SVN` `Git`
-* CI/CD
-`Jenkins` `Bitbucket Pipeline`
----
-# 工作經歷
+![](https://hackmd.io/_uploads/ryWcDAD23.jpg)
 
-## 無毒農(2022/9 ~ NOW)
 
-### MediatR導入
+## 小時候
 
-將Controller、Service解偶，Api對應的UseCase獨立單獨Handler處理， 大幅`增加專案可讀性`、`可維護性`，同事都說讚。
+從小我並不像大眾認知的跨性別，並沒有從小就覺得自己就是女生，比較有印象是國小在網路上看到一個超正偽娘之後，直接被打開開關，然後半夜都會偷穿老媽的衣服，有一次被老爸發現床上有我媽的睡衣，被狠狠痛打一遍，隔天午餐在餐桌上被質問到底為甚麼要這樣做，「是跟同學打賭輸了嗎?」、「覺得這樣很好玩嗎?」...每一句質問都深深的刻在我腦子裡，當下我覺得自己行為很噁心很羞恥，所以一句話都沒回，再加上我以前穿女裝...會有反應甚至...做一些色色的事情，罪惡感又更重，於是我選擇遺忘這件事。
 
->修改前
+## 國中、高中直男時期
 
-<img src="https://s3-tpe-01.russel053.com/delia/delia_tech_hexo/about/2023072402.png" width=600>
+![](https://hackmd.io/_uploads/rk5_p0vn3.jpg)
 
->修改後
+如圖..就是個妥妥的直男，因為自己喜歡女生所以這段時間完全沒有懷疑自己的性別認同，剛好這時候也迷上排球，覺得有女生看我打球很爽，我甚至還會雨天脫掉上衣在球場蛙跳，馬的超man==，反正覺得自己男生就是要帥帥的，現在回想起來當時似乎有時候會有一點忌妒女生，但我當時不曉得那是什麼感覺，反正就無法想像自己不男不女的樣子，不可能辦到的事情自然就不會多想吧，這麼男樣的自己怎麼可能懷疑自己的性別呢?
 
-```csharp
-private readonly Isender _sender;
+## 不小心就..又開始女裝
 
-public class PersonController(ISender sender)
-{
-    _sender = sender;
-}
+![](https://hackmd.io/_uploads/SJ779yu22.png)
 
-[HttpGet]
-public async Task<IActionResult> GetPersonPage(GetPersonPageQuery)
-{
-    return await _sender.send(GetPersonPageQuery)
-}
+![](https://hackmd.io/_uploads/HkRiGJ_3h.jpg)
 
-[HttpGet]
-public async Task<IActionResult> GetPersonById(GetPersonQuery)
-{
-    return await _sender.send(GetPersonQuery)
-}
+附圖已經是比較熟練的女裝打扮了，大學開始接觸到二次元文化，當時偽娘風氣剛盛行，也接觸到了場外的女裝大佬們，便開始了女裝之路，一開始也是發發腿照，用口罩跟貓貓特效讓自己比較能看一點XD，當時覺得單純這樣這樣不配叫偽娘，於是開始嘗試女裝出門，我對自己的目標就是能隱身在人群中，像個普通的女孩子，真正的「偽裝成娘」。
 
-[HttpPost]
-public async Task<IActionResult> CreatePerson(CreatePersonCommand)
-{
-    return await _sender.send(CreatePersonCommand)
-}
-```
+變化肯定沒有這麼容易，我是一個性別觀極度傳統的人，我不能接受自我連男裝去寶雅，一隻腳都不敢踏進化妝品區，半夜女裝出去走走都會怕到不能走路，接著慢慢練習進超商買東西，直到白天能出去玩音樂遊戲，開始能女裝跟朋友出去玩，我對自己標準滿嚴苛的，假髮一定要洗要護要像真髮一樣，服裝幾乎都是日常妹子樣式，當時的目標一直都是想像個女生能走在路上不被發現，是個想要完全融入生活的偽娘。
 
-<img src="https://s3-tpe-01.russel053.com/delia/delia_tech_hexo/about/2023072403.png" width=400>
+## 想不開簽了志願役
 
-### UnitOfWork導入
+![](https://hackmd.io/_uploads/HkVZfy_33.jpg)
 
-將每個Repossitory內的SaveChange抽離出來，外面包一層Unit Of Work，`減少建構子注入`、`劃分服務領域`、`Transation語法更直觀`。
+大學因為幾乎都在女裝跟玩音遊，畢業不知道要幹麻，當下只覺得反正我也沒很愛自己的樣子，這一生就平平淡淡的過完就好，假日能女裝和朋友出門打機台就很滿足了，所以想不開簽下去，結果還是超硬的傳統多波道作業兵..機掰==
 
-<img src="https://s3-tpe-01.russel053.com/delia/delia_tech_hexo/about/2023072401.png" width=600>
 
-### .NET Core 訊息微服務建置
+在軍中遇到滿多好長官，一開始被問line的頭貼(女裝照)是誰，我說是我妹，然後一堆人問能不能認識xd 之後說出來是我，他們也不排斥我假日女裝的樣子，偶爾也會女裝跟兄弟們(?)出去玩
 
-使用.NET CAP套件，用KAFKA作為Event bus傳遞事件。
-[本站文章連結](https://tech.deliahung.com/2023/07/08/Net-Core-CAP/)
 
->整體架構
+## 認識跨性別女友
 
-<img src="https://s3-tpe-01.russel053.com/delia/delia_tech_hexo/about/CAP.png" width=600>
+## 性別不安大爆發、不適服退伍
 
->寄送簡訊設計模式
+![](https://hackmd.io/_uploads/BJqKzy_h2.jpg)
 
-```csharp
-var setting = _SmsSetting.Filter(_ => _.Enable).OrderBy(_ => _.Sort).ToList();
-
-foreach(var item in settings)
-{
-    var smsProvider = _smsFactory.GetSmsProvider(item.SmsProvierType);
-    //紀錄log...
-    var smsReponseDto = smsProvier.Send(smsRequestDto);
-    //紀錄log...
-    if (smsResponseDto.IsSuccess) break;
-}
-```
-
-### 解決歷年週年慶搶購活動超賣問題
-
-單機鎖lock語句、Redis鎖、樂觀鎖、悲觀鎖實作&分享
-
-[本站文章連結](https://tech.deliahung.com/2023/06/21/EFCore-Concurrency/)
-
-### UnitTest導入
-
-使用`NUnit` with FluentAssertions & AutoFixture & NSubstitute。
-
-### FluentValidation導入
-
-`統一參數驗證方法`，搭配MediatR Pipeline統一處理Exception，並且`更好做單元測試`。
-
-## 聯邦網通(2021/9 ~ 2022/9)
-
-### 電商系統翻新
-維持原本Database、後臺系統，將邏輯層改寫為API前後分離，了解許多電商領域知識。
-
-### 訂單、購物車API
-處理`折扣邏輯`、`購物車驗證`、`購物車分車邏輯`、`訂單狀態`、`庫存控制`。
-
-### 金流串接
-`聯邦串接`、`Line Pay金串接`
-
-### 物流串接
-`黑貓`
-
-### 小工具API
-banner、館別資訊...等存入快取`增加讀取速度`。
-
-### 聯邦年節團購網站佈署維護
-webform的老舊專案重新佈署。
-
-### 聯邦紅利兌換網站佈署維護
-webform的老舊專案重新佈署。
-
-## 資策會C#工程師就業養成班 (2021/1 ~ 2021/8)
-
-### 擔任專題技術長，負責小組畢業專題規劃，食譜&購物電商
-
-### 專題導入三層式架構，IOC控制反轉，唯一有分層的組別
-
----
-
-# 近期學習目標
-- 持續練習OOP、設計模式
-- 研究 DDD、Clean Architecture
+## 退伍北漂轉職+HRT
