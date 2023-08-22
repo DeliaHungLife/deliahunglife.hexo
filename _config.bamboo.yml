@@ -8,9 +8,18 @@ menu:
   關於我:
     url: /about
     icon: fas fa-film
-  # Gallery:
-  #   url: /gallery
-  #   icon: fas fa-film
+  相簿:
+    icon: fas fa-film
+    children:
+      - name: 外拍
+        url: /gallery/location-shooting
+        icon: fas fa-film
+      - name: 旅拍
+        url: /gallery/tour-shooting
+        icon: fas fa-film
+      - name: 棚拍
+        url: /gallery/studio-shooting
+        icon: fas fa-film
   友情連結:
     icon: fa-solid fa-share-nodes
     children:
@@ -20,7 +29,6 @@ menu:
       - name: 好友社群
         url: /friend/friend-social-Link
         icon: fa-solid fa-user-group
-
   # Archives:
   #   url: /archives
   #   icon: fas fa-archive
@@ -32,26 +40,12 @@ menu:
   #   icon: fas fa-bookmark
   # Friends:
   #   url: /friends
-  # 更多: # 这是二级菜单的写法
-  #   icon: fas fa-link
-  #   children:
-  #     - name: Gallery
-  #       url: /gallery
-  #       icon: fas fa-music
-  #     - name: Friend
-  #       url: /friend
-  #       icon: fas fa-film
-
-# github地址, 头部导航右上角的github链接
-Github:
-  on: false
-  url: https://github.com/yuang01/hexo-theme-bamboo
 
 # 网站logo
-logo: https://s3-tpe-01.russel053.com/delia/delia_tech_hexo/favicon2.ico # 为空则不显示
+logo: https://s3-tpe-01.russel053.com/delia/life-blog/favicon.ico # 为空则不显示
 
 # 网站 favicon
-favicon: https://s3-tpe-01.russel053.com/delia/delia_tech_hexo/favicon2.ico # or .png .jpg .svg .gif .jpeg .ico
+favicon: https://s3-tpe-01.russel053.com/delia/life-blog/favicon.ico # or .png .jpg .svg .gif .jpeg .ico
 
 # sidebar侧边栏
 sidebar:
@@ -59,7 +53,7 @@ sidebar:
   widget_library:
     side_blogger:
       on: true
-      avatar: https://s3-tpe-01.russel053.com/delia/delia_tech_hexo/avatar6.jpg
+      avatar: https://s3-tpe-01.russel053.com/delia/life-blog/avatar.png
       shape: circle # circle, rectangle
       url: /about/
       title: 女裝工程師小鈞
@@ -333,8 +327,8 @@ scrollreveal:
 
 # 添加 Google Analytics 配置
 googleAnalytics:
-  on: false
-  id:
+  on: true
+  id: G-6WV0HPTDVP
 
 # 音乐
 music:
@@ -355,7 +349,7 @@ music:
 
 #版权信息  coryRyght
 copyright:
-  on: true
+  on: false
 
 # 簡介
 motto:
@@ -418,100 +412,6 @@ typed:
 # 文章详情页图片上的气泡效果
 bubble:
   on: true
-
-# valine 评论 https://valine.js.org
-valine:
-  on: false
-  appid:
-  appkey:
-  avatar: "" # 匿名者头像选项 https://valine.js.org/avatar.html
-  placeholder: "客官，说点什么吧" # 评论内容输入框的 placeholder
-  master: "" # 博主标签识别，博主邮箱md5 可以去md5加密网站，例如 https://md5jiami.51240.com/ ，将自己的邮箱输入， 得到 32位小写 的字符串
-  friends: [] # 小伙伴的 邮箱md5， 是个数组
-  requiredFields: [] # 设置必填项 ['nick', 'mail'] nick为昵称必填， mail为邮箱必填，建议设置必填，填写qq邮箱，会使用qq头像作为头像
-  backgroundImg: "https://img.zcool.cn/community/01a253594c71cfa8012193a329a77f.gif" # 右下角背景图片
-  backgroundColor: "rgba(255,255,255,0.9)" # 背景颜色
-
-# twikoo评论
-# https://twikoo.js.org
-twikoo:
-  on: false
-  envId: twikoo-1gs9l0fb17e7897a # 环境 ID，搭建教程：https://twikoo.js.org/quick-start.html
-  # region: ap-guangzhou # 环境地域，默认为 ap-shanghai
-  # path: 'window.location.pathname' # 自定义文章路径
-
-# 来必力评论
-livere:
-  on: false
-  livere_uid:
-
-# gitment 评论
-gitment:
-  on: false
-  gitment_owner: #你的 GitHub ID
-  gitment_repo: #存储评论的 repo
-  clientId: #client ID
-  clientSecret: #client secret
-
-# 畅言评论
-changyan:
-  on: false
-  appId:
-  conf:
-
-# gitalk评论
-gitalk:
-  on: false # 用来做启用判断可以不用
-  owner: #Github 用户名,
-  repo: #储存评论issue的github仓库名
-  admin: #Github 用户名,
-  clientID: #`Github Application clientID`
-  clientSecret: #`Github Application clientSecret`
-
-# utterance 评论  官网：https://utteranc.es/, 建议用这个评论
-utterance:
-  on: true
-  # 仓库名字，格式：你的用户 ID/ 仓库名称，如：yuang01/yuang01.github.io
-  repo:
-  # 主题
-  theme:
-    light: github-light
-    dark: github-dark
-  # 映射配置
-  issue_term: pathname
-  cdn: https://utteranc.es/client.js
-
-# beaudar
-# https://beaudar.lipk.org/
-beaudar:
-  on: false
-  repo: # 填写仓库名字，格式：你的用户 ID/ 仓库名称，如：yuang01/yuang01.github.io
-  issue-term: pathname
-  issue-number:
-  branch: main
-  position: top
-  order: desc
-  theme:
-    light: github-light
-    dark: github-dark
-  label: ✨💬✨
-
-# waline 评论 https://waline.js.org
-waline:
-  on: false
-  serverURL: "" # 必填，测试地址：https://waline.vercel.app/
-  lang: "zh-CN"
-  emoji: ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
-  login: "enable"
-  pageSize: 10
-  copyright: true
-
-# 弹幕 只对valine评论有效
-danmu:
-  on: false
-  loop: false # 设为true，则弹幕完了之后，继续查询评论接口，将该篇文章的评论再显示在弹幕里
-  delay: 5000 # 每条弹幕之间出现的间隔时间
-  speed: 40 # 弹幕运行的速度, 越小越快
 
 # 归档页面图片、描述、视频，全屏 or 'http://xxx'
 archive:
@@ -653,6 +553,7 @@ tag_plugins:
     autoplay: true # 自动播放
     css: https://unpkg.com/swiper@6/swiper-bundle.min.css
     js: https://unpkg.com/swiper@6/swiper-bundle.min.js
+
 # mermaid
 # see https://github.com/mermaid-js/mermaid
 mermaid:
@@ -724,6 +625,11 @@ import:
     # - <script src="xxx.js"></script>
     -
     -
+
+# github地址, 头部导航右上角的github链接
+Github:
+  on: false
+  url:
 
 # 文章图片,不指定 img:xxx 的时候随机取下面的图片
 imgs:
