@@ -1,1 +1,0 @@
-{% getPhotoOnline /gallery/tour-shooting/loopinthemirror20230723.json, regular %}

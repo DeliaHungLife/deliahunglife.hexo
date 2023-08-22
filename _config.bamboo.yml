@@ -11,11 +11,11 @@ menu:
   相簿:
     icon: fas fa-film
     children:
-      - name: 外拍
-        url: /gallery/location-shooting
-        icon: fas fa-film
       - name: 旅拍
         url: /gallery/tour-shooting
+        icon: fas fa-film
+      - name: 外拍
+        url: /gallery/location-shooting
         icon: fas fa-film
       - name: 棚拍
         url: /gallery/studio-shooting

@@ -1,0 +1,2 @@
+{% galleryGroup ' ' 'Loop In The Mirror' '/gallery/tour-shooting/loopinthemirror/230723-1' https://s3-tpe-01.russel053.com/delia/life-blog/gallery/tour-shooting/loopinthemirror/20230723/P_57.jpg%}
+{% galleryGroup ' ' 'Loop In The Mirror' '/gallery/tour-shooting/loopinthemirror/230723-2' https://s3-tpe-01.russel053.com/delia/life-blog/gallery/tour-shooting/loopinthemirror/20230723/P_16.jpg%}
