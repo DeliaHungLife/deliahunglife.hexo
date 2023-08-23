@@ -1,5 +1,5 @@
 ---
-title: 棚拍
+title: 生活照
 type: "gallery"
 comments: false
 ---

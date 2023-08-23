@@ -9,26 +9,28 @@ menu:
     url: /about
     icon: fas fa-film
   相簿:
+    url: /gallery
     icon: fas fa-film
-    children:
-      - name: 旅拍
-        url: /gallery/tour-shooting
-        icon: fas fa-film
-      - name: 外拍
-        url: /gallery/location-shooting
-        icon: fas fa-film
-      - name: 棚拍
-        url: /gallery/studio-shooting
-        icon: fas fa-film
+    # children:
+    #   - name: 旅拍
+    #     url: /gallery/tour-shooting
+    #     icon: fas fa-film
+    #   - name: 外拍
+    #     url: /gallery/location-shooting
+    #     icon: fas fa-film
+    #   - name: 棚拍
+    #     url: /gallery/studio-shooting
+    #     icon: fas fa-film
   友情連結:
+    url: /friend
     icon: fa-solid fa-share-nodes
-    children:
-      - name: 合作攝影
-        url: /friend/photographer
-        icon: fa-solid fa-video
-      - name: 好友社群
-        url: /friend/friend-social-Link
-        icon: fa-solid fa-user-group
+    # children:
+    #   - name: 合作攝影
+    #     url: /friend/photographer
+    #     icon: fa-solid fa-video
+    #   - name: 好友社群
+    #     url: /friend/friend-social-Link
+    #     icon: fa-solid fa-user-group
   # Archives:
   #   url: /archives
   #   icon: fas fa-archive
@@ -53,9 +55,9 @@ sidebar:
   widget_library:
     side_blogger:
       on: true
-      avatar: https://s3-tpe-01.russel053.com/delia/life-blog/avatar.png
-      shape: circle # circle, rectangle
-      url: /about/
+      avatar: https://s3-tpe-01.russel053.com/delia/life-blog/avatar-r.jpg
+      shape: rectangle # circle, rectangle
+      url: /about
       title: 女裝工程師小鈞
       subtitle: 後端工程師、業餘大尺模特(作品累積中)
       jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
@@ -117,16 +119,16 @@ sidebar:
     # ---------------------------------------
     # recent_post widget
     side_recent_post:
-      on: false
+      on: true
       background: "#fff"
-      limit: 5
+      limit: 3
       sort: update # date
-      order: 5
+      order: 3
       header:
         icon: fas fa-book
         icon_color:
         title: 最新文章
-        url: /tags/
+        url:
     # ---------------------------------------
     # side_archives widget
     side_archives:
@@ -145,7 +147,7 @@ sidebar:
     # side_webinfo widget
     side_webinfo:
       background: "#fff"
-      order:
+      order: 99
       header:
         icon: fas fa-chart-line
         title: 本站訊息
@@ -182,7 +184,7 @@ sidebar:
 # 页面刷新时预加载动画
 preloader:
   on: true
-  type: 2 # 1/2/3/4/5/6/7/8/9
+  type: 9 # 1/2/3/4/5/6/7/8/9
 
 # 首页轮播图设置
 swiper:
@@ -195,7 +197,7 @@ swiper:
   delay: 5000 # 切换延迟时间
   effect: "slide" # 'fade': 淡入淡出效果
   textAnimated: "fadeInDown" # 文字动画，属性使用 animate.css, https://daneden.github.io/animate.css/
-  textDuration: "0.2s" # 文字动画持续时间（单位秒）
+  textDuration: "0.3s" # 文字动画持续时间（单位秒）
   textDelay: "0.1s" # 文字动画延迟时间（单位秒）
   readMoreBtn: true # 阅读更多按钮是否显示
   readMoreBtnBackgroundColor: "" # 阅读更多按钮背景颜色,空字符串则默认使用主题颜色
@@ -207,13 +209,13 @@ swiper:
   defaultVideoLoadingImg: "https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif" # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
   defaultTile: "Delia's Blog" # 标题
   defaultDesc: ["願溫柔的你", "被世界溫柔以待"] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
-  defaultLeftBtnText: "我的故事" # 左边按钮文字, 空字符串则不显示
-  defaultLeftBtnLink: "https://life.deliahung.com/about" # 左边按钮链接
-  defaultRightBtnText: "技術網站" # 右边按钮的文字，空字符串则不显示
-  defaultRightBtnLink: "https://tech.deliahung.com" # 右边的按钮的链接
+  defaultLeftBtnText: "認識我" # 左边按钮文字, 空字符串则不显示
+  defaultLeftBtnLink: "/about" # 左边按钮链接
+  defaultRightBtnText: "欣賞我" # 右边按钮的文字，空字符串则不显示
+  defaultRightBtnLink: "/gallery" # 右边的按钮的链接
   defaultDescTyped: true # defaultDesc文字是否开启打字特效  is typed
-  defaultDescTypedSpeed: 100 # defaultDesc 打字速度, typed typeSpeed
-  defaultDescTypedBackSpeed: 40 # defaultDesc 打字返回速度 typed backSpeed
+  defaultDescTypedSpeed: 140 # defaultDesc 打字速度, typed typeSpeed
+  defaultDescTypedBackSpeed: 80 # defaultDesc 打字返回速度 typed backSpeed
   defaultDescTypedLoop: true # defaultDesc文字的打字特效是否循环  typed loop
   # defaultAddToSwiper表示：当有文章设置了swiper: true的时候，将上面的 默认内容 放在轮播图的第一页
   defaultAddToSwiper: true # 开启这个，则loop默认为false
@@ -497,7 +499,7 @@ color_scheme:
     # 如果背景只想要一个图片：可以使用 ['http://xxxxxx'] 或者 'http://xxxxxxx'，这样的写法, 图片地址也可以是本地路径('/img/xxx.png' or '/medias/xxx.png')
     # 也可以是颜色字符串（例如'#C7EDCC', 或者rgba(0 ,0 ,0, 0.8) 那么会使用该颜色作为背景）
     # 空字符串则背景颜色为透明
-    bgImg: ""
+    bgImg: https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp
     # 背景图幻灯片模式--延迟时间
     # 如果bgImg设置为数组，数组里面是多个图片地址,则 bgImgDelay表示背景图幻灯片的 延迟间隔时间
     bgImgDelay: 180000 # 默认三分钟，切换一张图片
@@ -618,13 +620,11 @@ wordcount:
 # 自己嵌入css或者script
 import:
   link:
-    # - <link href="xxx.css"  rel="stylesheet">
-    -
-    -
+    - <link href="/bubbly-bg/bubbly.css" rel="stylesheet">
+    #- <link href="/custom/index.css" rel="stylesheet"> //隱藏banner
   script:
-    # - <script src="xxx.js"></script>
-    -
-    -
+    - <script src="/bubbly-bg/bubbly.js"></script>
+    - <script src="/bubbly-bg/index.js"></script>
 
 # github地址, 头部导航右上角的github链接
 Github:
