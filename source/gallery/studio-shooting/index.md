@@ -1,6 +1,5 @@
 ---
 title: 棚拍
-type: "gallery"
-comments: false
+copyright: false
 ---
 準備中
