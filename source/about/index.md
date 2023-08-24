@@ -1,8 +1,17 @@
 ---
-title: 關於我
+title: '「特別」又不特別的跨性別歷程'
+date: 2023-08-24 00:00:00
+onlyTitle: true
+toc: false
+donate: false
+share: false
+copyright: false
+img: https://s3-tpe-01.russel053.com/delia/life-blog/gallery/230722/25.jpg
+topImg: false
 ---
-準備中
-<!-- # 八年女裝，不一樣的偽娘、跨性別歷程
+> 準備中
+
+<!-- ## 
 
 大家好我是小鈞，目前是個完全女裝生活的爆肝工程師，假日會接一些旅拍、外拍，夢想成為專業大尺跨性別模特。
 
