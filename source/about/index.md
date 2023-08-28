@@ -6,7 +6,7 @@ toc: false
 donate: false
 share: false
 copyright: false
-img: https://s3-tpe-01.russel053.com/delia/life-blog/gallery/230722/25.jpg
+img: https://s3-tpe-01.russel053.com/delia/life/gallery/230722/25.jpg
 topImg: false
 ---
 > 準備中

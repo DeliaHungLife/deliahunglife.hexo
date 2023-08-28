@@ -16,10 +16,10 @@ menu:
     icon: fa-solid fa-share-nodes
 
 # 网站logo
-logo: https://s3-tpe-01.russel053.com/delia/life-blog/favicon.ico # 为空则不显示
+logo: https://s3-tpe-01.russel053.com/delia/life/favicon.ico # 为空则不显示
 
 # 网站 favicon
-favicon: https://s3-tpe-01.russel053.com/delia/life-blog/favicon.ico # or .png .jpg .svg .gif .jpeg .ico
+favicon: https://s3-tpe-01.russel053.com/delia/life/favicon.ico # or .png .jpg .svg .gif .jpeg .ico
 
 # sidebar侧边栏
 sidebar:
@@ -27,7 +27,7 @@ sidebar:
   widget_library:
     side_blogger:
       on: true
-      avatar: https://s3-tpe-01.russel053.com/delia/life-blog/avatar-r.jpg
+      avatar: https://s3-tpe-01.russel053.com/delia/life/avatar-r.webp
       shape: rectangle # circle, rectangle
       url: /about
       title: 女裝工程師小鈞
