@@ -1,5 +1,5 @@
 ---
-title: '「特別」又平凡的跨性別歷程'
+title: '「特別」又不特別的跨性別歷程'
 date: 2023-08-24 00:00:00
 onlyTitle: true
 toc: false

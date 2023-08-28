@@ -371,7 +371,7 @@ notice:
 
 # 文章置顶
 topArticle:
-  on: true
+  on: false
   background: "rgba(255,255,255,1)" # url("http://xxx.png") or red or #000 or rgba() ..
 
 # 归档，标签，分类页图片上的打字效果
