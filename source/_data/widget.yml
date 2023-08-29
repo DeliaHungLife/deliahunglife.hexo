@@ -2,7 +2,7 @@
 # widget_library:
 #   - class_name: test_a
 #     id_name: test_a
-#     order: 0
+#     order: 1
 #     name: 这个widget不会粘贴
 #     icon: fab fa-weibo
 #     icon_color: "#d63130"
@@ -12,8 +12,8 @@
 
 # widget_library_sticky 里面的会出现在sticky区域，会粘贴在左侧
 widget_library_sticky:
-  - class_name: testLove
-    id_name: testLove
+  - class_name: love
+    id_name: love
     order: 2
     name: 我ㄉ愛人
     icon: fas fa-heart
@@ -34,16 +34,28 @@ widget_library_sticky:
       style="width: 50px;height: 50px;vertical-align: -20px;border-radius: 50%;margin-left: 5px;margin-bottom: 5px;-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.1), 1px 1px 1px rgba(0,0,0,0.1), 1px 1px 1px rgba(0,0,0,0.1);box-shadow: 1px 1px 1px rgba(0,0,0,.1), 1px 1px 1px rgba(0,0,0,0.1), 1px 1px 1px rgba(0,0,0,0.1);border: 2px solid #fff;" /><br />
       <span id="htmer_time"></span>
       </div>
-      <script defer data-pjax src="/love/index.js"></script>
+      <script defer data-pjax src="/widget/love/index.js"></script>
       '
 # home_widget里面的内容会出现在座右铭那一个栏目里面
-# home_widget:
-#   - class_name: welcome
-#     id_name: welcome
-#     order: -1
-#     name: 欢迎
-#     icon: fas fa-envelope
-#     icon_color: blue
-#     url: http://baidu.com
-#     background: "#fff"
-#     html: "针不戳"
+home_widget:
+  - class_name: social
+    id_name: social
+    order: -1
+    name:
+    icon:
+    icon_color: write
+    url: ""
+    background: "#fff"
+    html: '
+      <article class="post post-detail" style="text-align: center; padding-top: 0px; margin-top:-30px">
+      <div class="post-content">
+      <h3 id="社群連結"><a href="#社群連結" class="headerlink" title="社群連結"></a>社群連結</h3>
+      <span class="btn center cool-13"><a class="button" target="_blank" rel="noopener" href="https://www.facebook.com/delia.csharp" title="facebook" data-pjax-state=""><i class="fa-brands fa-facebook"></i>女裝工程師小鈞</a></span>
+      <span class="btn center cool-13"><a class="button" target="_blank" rel="noopener" href="https://www.instagram.com/delia_csharp" title="Instagram" data-pjax-state=""><i class="fa-brands fa-instagram"></i>delia_csharp</a></span>
+      <span class="btn center cool-13"><a class="button" target="_blank" rel="noopener" href="https://twitter.com/delia_csharp" title="twitter" data-pjax-state=""><i class="fa-brands fa-twitter"></i>@delia_csharp</a></span>
+      <h3 id="贊助平台"><a href="#贊助平台" class="headerlink" title="贊助平台"></a>贊助平台</h3>
+      <span class="btn center cool-13"><a class="button" target="_blank" rel="noopener" href="https://www.furuke.com/delia/donations/create" title="Furuke" data-pjax-state=""><i class="fa-solid fa-circle-dollar-to-slot"></i>Furuke</a></span>
+      </div>
+
+      </article>
+      '

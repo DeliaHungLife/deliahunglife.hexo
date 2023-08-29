@@ -160,7 +160,7 @@ preloader:
 
 # 首页轮播图设置
 swiper:
-  on: true # 设置为false, 则首页不显示轮播图
+  on: false # 设置为false, 则首页不显示轮播图
   # 当在.md文件中，设置swiper:true，会将该文章放到轮播中，
   showPrevNext: false # 是否显示左右切换按钮
   showIndicators: false # 是否显示指示器
@@ -327,7 +327,7 @@ copyright:
 
 # 簡介
 motto:
-  on: true
+  on: false
   title: "我是誰?"
   content: "一位MTF跨性別，女裝資歷8年，2021/1/6開始賀爾蒙治療，從女裝時期就非常追求「現實」、「生活」、「自然」，身高體重170/53，平時是個社畜後端工程師，夢想成為專業跨性別大尺模特，座標台灣雙北，歡迎動漫場次認親，追隨我，就有機會見到日常又自然的偽娘喔"
   background: 'url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png")' # url("xxx") or red or #000 or rgba() ..
@@ -592,11 +592,11 @@ wordcount:
 # 自己嵌入css或者script
 import:
   link:
-    - <link href="/bubbly-bg/bubbly.css" rel="stylesheet">
-    #- <link href="/custom/index.css" rel="stylesheet"> #隱藏banner
+    #- <link href="/custom/bubbly-bg/bubbly.css" rel="stylesheet">
+    #- <link href="/custom/hideBanner.css" rel="stylesheet"> #隱藏banner
   script:
-    - <script src="/bubbly-bg/bubbly.js"></script>
-    - <script src="/bubbly-bg/index.js"></script>
+    #- <script src="/custom/bubbly-bg/bubbly.js"></script>
+    - <script src="/custom/bubbly-bg/index.js"></script>
 
 # github地址, 头部导航右上角的github链接
 Github:
