@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "小鈞🏳️‍⚧️🔞(♂️➡️♀️)"
-subtitle: "小鈞的跨性別生活"
-description: "跨性別日常、後端工程師、業餘模特、保養穿搭、cosplay"
+title: "小鈞🏳️‍⚧️(♂️➡️♀️)"
+subtitle: "女裝工程師小鈞 | 跨性別日常"
+description: "後端工程師、業餘模特、保養穿搭、cosplay"
 keywords:
   [Delia, delia, Delia_Csharp, delia_csharp, 女裝工程師小鈞, 小鈞, 洪秉鈞, 秉鈞]
 author: Delia
@@ -15,7 +15,7 @@ timezone: "Asia/Taipei"
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://deliahunglife.github.io
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks

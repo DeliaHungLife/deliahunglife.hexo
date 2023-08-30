@@ -10,7 +10,7 @@ img: https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp
 topImg: false
 ---
 
-## 合作社影
+## 合作攝影
 {% getSiteOnline /friend/photographer.json %}
 
 ## 好友社群
