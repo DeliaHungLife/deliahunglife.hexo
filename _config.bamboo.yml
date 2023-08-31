@@ -29,7 +29,7 @@ sidebar:
       on: true
       avatar: https://s3-tpe-01.russel053.com/delia/life/avatar-r.webp
       shape: rectangle # circle, rectangle
-      url: /about
+      url: /aboutMe/index
       title: 女裝工程師小鈞
       subtitle: 後端工程師、業餘大尺模特(作品累積中)
       jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
@@ -182,7 +182,7 @@ swiper:
   defaultTile: "小鈞的跨性別日常" # 标题
   defaultDesc: ["願溫柔的你", "被世界溫柔以待"] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
   defaultLeftBtnText: "認識我" # 左边按钮文字, 空字符串则不显示
-  defaultLeftBtnLink: "/about" # 左边按钮链接
+  defaultLeftBtnLink: "/aboutMe/index" # 左边按钮链接
   defaultRightBtnText: "欣賞我" # 右边按钮的文字，空字符串则不显示
   defaultRightBtnLink: "/gallery" # 右边的按钮的链接
   defaultDescTyped: true # defaultDesc文字是否开启打字特效  is typed
