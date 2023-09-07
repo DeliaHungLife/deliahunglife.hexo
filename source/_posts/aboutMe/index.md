@@ -6,7 +6,7 @@ toc: true
 donate: false
 share: false
 copyright: true
-img: https://s3-tpe-01.russel053.com/delia/life/gallery/230722/24.webp
+img: https://r2.deliahung.com/gallery/230722/24.webp
 topImg: false
 top: true
 excerpt: 充滿轉折的跨性別過程，想知道我是如何轉變嗎?為什麼曾經想不開跑去當職業軍人?想成為大尺模特的原因?特別獻給...因為性別焦慮卻不知道該不該跨出去的你、覺得跨性別等於想做變性手術的你或是好奇跨性別到底在跨三小的你。
@@ -34,8 +34,8 @@ tags: [關於我]
 ## 小時候
 
 {% gallery%}
-![國小畢業典禮，全班最矮](https://s3-tpe-01.russel053.com/delia/life/aboutMe/T1/01.webp)
-![國小同學合照，與一些同學還有持續聯絡](https://s3-tpe-01.russel053.com/delia/life/aboutMe/T1/02.webp)
+![國小畢業典禮，全班最矮](https://r2.deliahung.com/aboutMe/T1/01.webp)
+![國小同學合照，與一些同學還有持續聯絡](https://r2.deliahung.com/aboutMe/T1/02.webp)
 {% endgallery %}
 
 覺得自己「特別」的原因，應該從小時候開始說起，我不像大眾所認知的跨性別，並沒有從有意識以來就覺得自己是女生，靈魂裝錯身體這麼直接的想法。
@@ -49,13 +49,13 @@ tags: [關於我]
 ## 直男時期(國中、高中)
 
 {% gallery%}
-![大學一年級](https://s3-tpe-01.russel053.com/delia/life/aboutMe/T2/03.webp)
-![高中](https://s3-tpe-01.russel053.com/delia/life/aboutMe/T2/02.webp)
-![高中](https://s3-tpe-01.russel053.com/delia/life/aboutMe/T2/01.webp)
-![高中](https://s3-tpe-01.russel053.com/delia/life/aboutMe/T2/06.webp)
-![高中](https://s3-tpe-01.russel053.com/delia/life/aboutMe/T2/04.webp)
-![我有一個小我11歲的弟弟](https://s3-tpe-01.russel053.com/delia/life/aboutMe/T2/05.webp)
-![高中](https://s3-tpe-01.russel053.com/delia/life/aboutMe/T2/07.webp)
+![大學一年級](https://r2.deliahung.com/aboutMe/T2/03.webp)
+![高中](https://r2.deliahung.com/aboutMe/T2/02.webp)
+![高中](https://r2.deliahung.com/aboutMe/T2/01.webp)
+![高中](https://r2.deliahung.com/aboutMe/T2/06.webp)
+![高中](https://r2.deliahung.com/aboutMe/T2/04.webp)
+![我有一個小我11歲的弟弟](https://r2.deliahung.com/aboutMe/T2/05.webp)
+![高中](https://r2.deliahung.com/aboutMe/T2/07.webp)
 {% endgallery %}
 
 國高中時期就是個一般的直男，那個年代性別教育比較傳統，自己性向是喜歡女生，所以這段時間完全不會去懷疑自己的性別認同，剛好這時候又迷上排球，覺得有女生看我打球很爽，甚至還會雨天脫掉上衣在球場蛙跳，讓女生覺得我很有魅力，超直男==。
@@ -68,7 +68,7 @@ tags: [關於我]
 ## 喚起另一個自己(大學)
 
 {% gallery%}
-![長大後第一次穿女裝](https://s3-tpe-01.russel053.com/delia/life/aboutMe/T3/04.webp)
+![長大後第一次穿女裝](https://r2.deliahung.com/aboutMe/T3/04.webp)
 {% endgallery %}
 
 大學開始接觸到二次元文化，當時偽娘風氣剛盛行，很多遊戲社群常常上演打賭女裝的戲碼，那是一個發腿照就能有超多讚的時期，我一直都沒有完全忘記小時候那個想變漂亮的自己，剛好當時接觸到了場外女裝大佬們，超級羨慕忌妒他們，很想超越他們，於是開始了女裝之路。一開始也是簡單拍拍腿照，也會用口罩跟貓貓特效讓自己比較能看一點XD，當時覺得這樣還不能稱自己叫偽娘，我對自己的目標就是日常出門能隱身在人群中，像個普通的女孩子，真正的「偽裝成娘」。
@@ -76,11 +76,11 @@ tags: [關於我]
 變化肯定沒有這麼容易，因為教育關係我是一個性別觀念極度傳統的人，平時男裝去寶雅，完全不敢踏進化妝品區，甚至連朝著走過去都有困難，一開始也只敢半夜女裝出去走走，又會怕到發抖不敢抬頭，我永遠記得那份焦慮感，每次回到家後都很難過甚至大哭，覺得自己很醜可是又無法壓住想成為超強偽娘的心。
 
 {% gallery%}
-![](https://s3-tpe-01.russel053.com/delia/life/aboutMe/T3/01.webp)
-![](https://s3-tpe-01.russel053.com/delia/life/aboutMe/T3/02.webp)
-![](https://s3-tpe-01.russel053.com/delia/life/aboutMe/T3/03.webp)
-![](https://s3-tpe-01.russel053.com/delia/life/aboutMe/T3/05.webp)
-![](https://s3-tpe-01.russel053.com/delia/life/aboutMe/T3/06.webp)
+![](https://r2.deliahung.com/aboutMe/T3/01.webp)
+![](https://r2.deliahung.com/aboutMe/T3/02.webp)
+![](https://r2.deliahung.com/aboutMe/T3/03.webp)
+![](https://r2.deliahung.com/aboutMe/T3/05.webp)
+![](https://r2.deliahung.com/aboutMe/T3/06.webp)
 {% endgallery %}
 
 ## 向人生妥協，簽下志願役

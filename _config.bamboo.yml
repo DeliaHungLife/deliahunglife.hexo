@@ -34,10 +34,10 @@ notice:
       color: "#FF5151"
 
 # 网站logo
-logo: https://s3-tpe-01.russel053.com/delia/life/favicon.ico # 为空则不显示
+logo: https://r2.deliahung.com/favicon.ico # 为空则不显示
 
 # 网站 favicon
-favicon: https://s3-tpe-01.russel053.com/delia/life/favicon.ico # or .png .jpg .svg .gif .jpeg .ico
+favicon: https://r2.deliahung.com/favicon.ico # or .png .jpg .svg .gif .jpeg .ico
 
 # sidebar侧边栏
 sidebar:
@@ -45,7 +45,7 @@ sidebar:
   widget_library:
     side_blogger:
       on: true
-      avatar: https://s3-tpe-01.russel053.com/delia/life/avatar-r.webp
+      avatar: https://r2.deliahung.com/avatar-r.webp
       shape: rectangle # circle, rectangle
       url: /aboutMe/index
       title: 女裝工程師小鈞
@@ -540,7 +540,7 @@ cursor:
 # 图片懒加载
 # https://www.npmjs.com/package/vanilla-lazyload
 lazyload:
-  enable: true
+  enable: false
   js: https://unpkg.com/vanilla-lazyload@17.1.0/dist/lazyload.min.js
   onlypost: false
   loadingImg: https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp

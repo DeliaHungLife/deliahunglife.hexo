@@ -6,7 +6,7 @@ toc: false
 donate: false
 share: false
 copyright: false
-img: https://s3-tpe-01.russel053.com/delia/life/gallery/230623/03.JPG
+img: https://r2.deliahung.com/gallery/230623/03.JPG
 topImg: false
 ---
 > 準備中
