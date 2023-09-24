@@ -49,7 +49,7 @@ sidebar:
       shape: rectangle # circle, rectangle
       url: /aboutMe/index
       title: 女裝工程師小鈞
-      subtitle: 後端工程師、業餘大尺模特(作品累積中)
+      subtitle: 後端工程師、跨性別大尺模特
       jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
       fontFammily: Titillium Web,'PingFang SC','Hiragino Sans GB','Microsoft JhengHei','Microsoft YaHei',sans-serif
       background: "#fff"
