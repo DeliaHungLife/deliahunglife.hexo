@@ -10,6 +10,12 @@ img: https://r2.deliahung.com/gallery/230723/07.webp
 topImg: false
 ---
 <!--Raven-->
+{% galleryGroup '2023-09-03(1)' 'Raven' '/gallery/230903-1' https://r2.deliahung.com/gallery/230903/26-1.webp%}
+
+{% galleryGroup '2023-09-03(2)' 'Raven' '/gallery/230903-2' https://r2.deliahung.com/gallery/230903/54.webp%}
+
+{% galleryGroup '2023-09-03(3)' 'Raven' '/gallery/230903-3' https://r2.deliahung.com/gallery/230903/75-1.webp%}
+
 {% galleryGroup '2023-07-23(1)' 'Raven' '/gallery/230723-1' https://r2.deliahung.com/gallery/230723/41.webp%}
 
 {% galleryGroup '2023-07-23(2)' 'Raven' '/gallery/230723-2' https://r2.deliahung.com/gallery/230723/08.webp%}
@@ -25,7 +31,7 @@ topImg: false
 
 {% galleryGroup '2023-08-19' 'Lens Tester' '/gallery/230819' https://r2.deliahung.com/gallery/230819/22.webp%}
 
-{% galleryGroup '2023-08-19' 'c-k' '/gallery/230501' https://r2.deliahung.com/gallery/230501/34.webp%}
+{% galleryGroup '2023-05-01' 'c-k' '/gallery/230501' https://r2.deliahung.com/gallery/230501/34.webp%}
 
 <!-- {% galleryGroup '生活照(準備中)' '一些生活廢照' '/gallery/candid-photo' https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp%}
 
