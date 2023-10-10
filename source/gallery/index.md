@@ -29,11 +29,14 @@ topImg: false
 
 {% galleryGroup '2023-08-12' 'c-k' '/gallery/230812' https://r2.deliahung.com/gallery/230812/02.webp%}
 
-{% galleryGroup '2023-08-19' 'Lens Tester' '/gallery/230819' https://r2.deliahung.com/gallery/230819/22.webp%}
-
 {% galleryGroup '2023-05-01' 'c-k' '/gallery/230501' https://r2.deliahung.com/gallery/230501/34.webp%}
 
-<!-- {% galleryGroup '生活照(準備中)' '一些生活廢照' '/gallery/candid-photo' https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp%}
+<!--Lens Tester-->
+{% galleryGroup '2023-08-19' 'Lens Tester' '/gallery/230819' https://r2.deliahung.com/gallery/230819/22.webp%}
 
-{% galleryGroup '🔞大尺攝影🔞(準備中)' '🔞未滿18請勿觀看🔞' '/gallery/r18' https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp%} -->
+<!--carterlu-->
+{% galleryGroup '2023-09-26(1)' 'carterlu' '/gallery/230926-1' https://r2.deliahung.com/gallery/230926-1/08.webp%}
 
+{% galleryGroup '2023-09-26(2)' 'carterlu' '/gallery/230926-2' https://r2.deliahung.com/gallery/230926-2/19.webp%}
+
+{% galleryGroup '2023-09-26(3)' 'carterlu' '/gallery/230926-3' https://r2.deliahung.com/gallery/230926-3/01.webp%}
