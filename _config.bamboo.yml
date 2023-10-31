@@ -56,11 +56,11 @@ sidebar:
       order: 0 # 卡片排序, 数值越小，越在上面
       social:
         - icon: fa-brands fa-facebook
-          url: https://www.facebook.com/delia.csharp
+          url: https://www.facebook.com/xiaojun.mtf
         - icon: fa-brands fa-instagram
-          url: https://www.instagram.com/delia_csharp
+          url: https://www.instagram.com/xiaojun.mtf
         - icon: fa-brands fa-twitter
-          url: https://twitter.com/delia_csharp
+          url: https://twitter.com/xiaojun_mtf
         - icon: fas fa-envelope
           url: mailto:pingchun.hung@gmail.com
         - icon: fa-solid fa-circle-dollar-to-slot
@@ -197,7 +197,7 @@ swiper:
   defaultImg: "https://pic1.zhimg.com/v2-af3ccef61cf58b1a70765747cc1bbeac_b.jpg" # 图片，没有则随机选取
   defaultVideo: "" # video，min-width:992px show
   defaultVideoLoadingImg: "https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif" # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
-  defaultTile: "小鈞的跨性別日常" # 标题
+  defaultTile: "小鈞跨性別日常" # 标题
   defaultDesc: ["願溫柔的你", "被世界溫柔以待"] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
   defaultLeftBtnText: "認識我" # 左边按钮文字, 空字符串则不显示
   defaultLeftBtnLink: "/aboutMe/index" # 左边按钮链接
@@ -475,11 +475,11 @@ site_footer:
   layout: [social, copyright, busuanzi, custom]
   social:
     - icon: fa-brands fa-facebook
-      url: https://www.facebook.com/delia.csharp
+      url: https://www.facebook.com/xiaojun.mtf
     - icon: fa-brands fa-instagram
-      url: https://www.instagram.com/delia_csharp
+      url: https://www.instagram.com/xiaojun.mtf
     - icon: fa-brands fa-twitter
-      url: https://twitter.com/delia_csharp
+      url: https://twitter.com/xiaojun_mtf
     - icon: fas fa-envelope
       url: mailto:pingchun.hung@gmail.com
   copyright: 'Copyright © 2023 -  <a href="https://github.com/yuang01">yuang01</a> | Powered by <a href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a href="https://github.com/yuang01/theme">Bamboo</a> '
